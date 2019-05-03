@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -14,15 +14,15 @@ public class Task04 {
 		System.out.println("Enter your age: ");
 		int age = sc.nextInt();
 
-		if (income<10000) {
+		if (income < 10000) {
 			System.out.println("No tax");
-		} else if (age<18) {
+		} else if (age < 18) {
 			System.out.println("No tax");
-		} else if (income>=10000 && income<20000) {
-			double x = income*0.05;
+		} else if (income >= 10000 && income < 20000) {
+			double x = income * 0.05;
 			System.out.println("You've to pay = " + x);
-		} else if (income>=20000) {
-			double y = income*0.10;
+		} else if (income >= 20000) {
+			double y = income * 0.10;
 			System.out.println("You've to pay = " + y);
 		}
 	}

@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -14,9 +14,9 @@ public class Task11 {
 		int currentScale = sc.nextInt();
 		System.out.println("Enter target scale: ");
 		int targetScale = sc.nextInt();
-		
-		int x = (mark*targetScale)/currentScale;
-		
+
+		int x = (mark * targetScale) / currentScale;
+
 		System.out.println(x);
 	}
 

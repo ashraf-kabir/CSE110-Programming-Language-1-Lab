@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Task10 {
 		System.out.println("Enter your favourite car's name: ");
 		String x = sc.nextLine();
 
-		for (int c=1; c<=4; c++) {
+		for (int c = 1; c <= 4; c++) {
 			System.out.println(x);
 		}
 	}

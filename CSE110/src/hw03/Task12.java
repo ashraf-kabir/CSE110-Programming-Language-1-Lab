@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -17,10 +17,10 @@ public class Task12 {
 		System.out.println("Enter grade of PHY111: ");
 		double g4 = sc.nextDouble();
 
-		int c1=3, c2=0, c3=3, c4=3;
-		
-		double GPA = (g1*c1 + g2*c2 + g3*c3 + g4*c4)/(c1+c2+c3+c4);
-		
+		int c1 = 3, c2 = 0, c3 = 3, c4 = 3;
+
+		double GPA = (g1 * c1 + g2 * c2 + g3 * c3 + g4 * c4) / (c1 + c2 + c3 + c4);
+
 		System.out.println("Your GPA is = " + GPA);
 	}
 

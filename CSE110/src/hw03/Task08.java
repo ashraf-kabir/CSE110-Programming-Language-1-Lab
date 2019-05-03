@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -10,8 +10,10 @@ public class Task08 {
 
 		System.out.println("Number of articles: ");
 		int a = sc.nextInt();
-		
-		System.out.println("Total amount = "+a*500);
+
+		int b = a * 500;
+
+		System.out.println(b);
 	}
 
 }

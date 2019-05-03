@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -17,12 +17,12 @@ public class Task09 {
 		System.out.println("Enter third number: ");
 		int c = sc.nextInt();
 
-		if (a>b && a>c) {
-			System.out.println("First input "+ a +" is the largest");
-		} else if (b>a && b>c) {
-			System.out.println("Second input "+ b +" is the largest");
+		if (a > b && a > c) {
+			System.out.println("First input is the largest");
+		} else if (b > a && b > c) {
+			System.out.println("Second input is the largest");
 		} else {
-			System.out.println("Third input is "+ c +" the largest");
+			System.out.println("Third input is the largest");
 		}
 	}
 

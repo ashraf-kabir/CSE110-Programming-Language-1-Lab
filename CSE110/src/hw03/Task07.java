@@ -1,4 +1,4 @@
-package hw03;
+package homework03;
 
 import java.util.Scanner;
 
@@ -12,10 +12,10 @@ public class Task07 {
 		double y = sc.nextDouble();
 		double z = sc.nextDouble();
 
-		double s = (x+y+z)/2.0;
-		
-		double area = Math.sqrt(s*(s-x)*(s-y)*(s-z));
-		
+		double s = (x + y + z) / 2.0;
+
+		double area = Math.sqrt(s * (s - x) * (s - y) * (s - z));
+
 		System.out.println(area);
 	}
 
