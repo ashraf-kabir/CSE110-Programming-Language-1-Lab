@@ -1,4 +1,4 @@
-package homework04;
+package hw04;
 
 /*
  * Write javacode of a program which adds all numbers that are multiples of either 7 or 9 up to 600.
