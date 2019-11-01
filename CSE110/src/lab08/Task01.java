@@ -8,7 +8,7 @@ public class Task01 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int num[] = new int[3];
+		int[] num = new int[3];
 		int sum = 0;
 
 		for (int a = 0; a < num.length; a++) {
