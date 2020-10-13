@@ -9,14 +9,14 @@ public class Task13 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter number: ");
-		int r = sc.nextInt();
+		int N = sc.nextInt();
 
 		int sum = 0;
-		int count = 0;
 
-		for (int c = 1; c <= r; c++) {
-			count++;
-			sum += c;
+		for (int i = 1; i <= N; i++) {
+			if (i % 2 != 0) {
+				sum += i;
+			}
 		}
 		System.out.println(sum);
 
