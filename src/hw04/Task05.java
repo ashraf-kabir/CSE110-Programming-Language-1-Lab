@@ -12,8 +12,8 @@ public class Task05 {
         int n = sc.nextInt();
         
         int x = 0;
-        for (int c = 1; c <= n; c++) {
-            x = x + (c * c * c);
+        for (int i = 1; i <= n; i++) {
+            x = x + (i * i * i);
         }
         System.out.println(x);
     }

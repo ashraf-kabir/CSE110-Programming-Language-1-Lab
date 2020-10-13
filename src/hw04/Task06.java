@@ -12,11 +12,11 @@ public class Task06 {
         int n = sc.nextInt();
         
         int y = 0;
-        for (int c = 1; c <= n; c++) {
-            if (c % 2 == 0) {
-                y -= (c * c);
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                y -= (i * i);
             } else {
-                y += (c * c);
+                y += (i * i);
             }
         }
         System.out.println(y);

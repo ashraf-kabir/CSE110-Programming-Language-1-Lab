@@ -23,8 +23,8 @@ public class Task03 {
             sum += m;
         }
         double avg = sum / 20.0;
-        System.out.println(avg);
-        System.out.println(max);
+        System.out.println("Average of all numbers = " + avg);
+        System.out.println("Maximum number = " + max);
     }
     
 }

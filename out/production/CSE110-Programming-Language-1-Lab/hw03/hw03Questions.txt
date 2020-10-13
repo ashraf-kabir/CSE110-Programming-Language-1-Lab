@@ -1,0 +1,61 @@
+Task 1:
+Write javacode of a program that reads a student’s mark for a single subject, and prints out “Pass” if the student got more than 50, and “You shall not pass” otherwise.
+
+Task 2:
+Write javacode of a program that reads a student’s mark for a single subject, and prints out the corresponding grade for that mark. The mark ranges and corresponding grades are shown in the table below. Valid range of marks is 0 to 100. Print “Wrong Input” otherwise.
+Marks            Grade
+90 and above       A
+80-89              B
+70-79              C
+60-69              D
+50-59              E
+Below 50           F
+
+Task 3:
+Write javacode of a program for finding area of a rectangle given height and width by the user.
+
+Task 4:
+Write javacode of a program that calculates the tax as follows:
+a) No tax if you get paid less than 10,000
+b) 5% tax if you get paid between 10K and 20K
+c) 10% tax if you get paid more than 20K
+d) NO TAX IF YOU ARE LESS THAN 18 YEARS OLD.
+Hint: Take payment and age from user as inputs; then calculate tax and prints it.
+
+Task 5:
+Write javacode of a program that finds the number of hours, minutes, and seconds in a given number of seconds. For example, how many hours, minutes, and seconds are there in 10,000 seconds?
+
+Task 6:
+Suppose the following expressions are used to calculate the values of L for different values of S:
+L = 3000-(125*(S^2))             if S < 100
+L = 12000/4+((S^2)/14900)        if S >= 100
+
+Write javacode of a program that reads a value of S and then calculates the value of L.
+
+Task 7:
+Write javacode of a program that reads the values for the three sides x, y, and z of a triangle, and then calculates its area. The area is calculated as follows:
+area = √(s(s − x)(s − y)(s − z))
+where s is (x+y+z)/2
+
+Task 8:
+A leading newspaper pays all their freelance writers at a rate of Tk. 500 per published article. Write javacode of a program that will read the number of published articles for one writer, and print the total
+monthly fees for that writer.
+
+Task 9:
+Write javacode of a program to find the largest among three different numbers entered by user.
+
+Task 10:
+Write javacode for the following:
+1) Ask the user to enter the name of his favorite car.
+2) Display the name of the user’s favorite car 4 times.
+Example: If the user enters “Toyota”, your program should print the name Toyota 4 times.
+
+Task 11:
+Write javacode for the following:
+Ask user for mark, currentScale, targetScale and then convert the mark from currentScale to targetScale. If user gives 5, 10, 30, that means quiz mark 5 is out of 10 (currentScale), convert it to 30 and print 15.
+
+Task 12:
+Write javacode for the following:
+Assume all first semester students have 4 courses: CSE110, ENG091, MAT110, PHY111. Credits for these courses are 3, 0, 3, 3 respectively. Take the grades of four courses from the user (out of 4.0 scale) and then print the GPA.
+Formula:
+GPA = summation of (multiplication of grade and credit of each course) divided by sum of credits = (grade1xcredit1 + grade2xcredit2 + grade3xcredit3 ....) / (credit1 + credit 2+credit 3 ....)
