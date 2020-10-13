@@ -1,5 +1,10 @@
 package hw04;
 
+/**
+ * Task 16:
+ * Write javacode of a program that reads marks of ten courses and prints the maximum, minimum and average of those ten marks.
+ */
+
 import java.util.Scanner;
 
 public class Task16 {
@@ -15,7 +20,7 @@ public class Task16 {
         int min = n;
         int sum = n;
         
-        for (int a = 1; a <= 9; a++) {
+        for (int i = 1; i <= 9; i++) {
             System.out.println("Enter number:");
             int num = sc.nextInt();
             
