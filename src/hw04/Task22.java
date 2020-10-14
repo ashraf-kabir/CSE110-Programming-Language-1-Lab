@@ -1,5 +1,13 @@
 package hw04;
 
+/**
+ * Task 22:
+ * Telling words: Write javacode of a program that takes a number between 0 and 9. You have to print that
+ * number in words.
+ * Hint: if n == 1, then print "one"
+ * else if n == 2, then print "two"
+ */
+
 import java.util.Scanner;
 
 public class Task22 {

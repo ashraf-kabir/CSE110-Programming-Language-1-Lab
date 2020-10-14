@@ -1,8 +1,16 @@
 package hw04;
 
+/**
+ * Task 4:
+ * Write javacode for the following:
+ * Take twenty numbers input from the user and find the minimum from all numbers and the average of the even numbers
+ * entered by the user. [If the user enters odd numbers ignore them]
+ */
+
 import java.util.Scanner;
 
 public class Task04 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -35,4 +43,5 @@ public class Task04 {
         System.out.println("Average of even numbers = " + avg);
         System.out.println("Minimum number = " + min);
     }
+
 }

@@ -1,6 +1,12 @@
 package hw04;
 
-import java.util.*;
+/**
+ * Task 3:
+ * Write javacode for the following:
+ * Take twenty numbers input from the user and print the maximum and the average.
+ */
+
+import java.util.Scanner;
 
 public class Task03 {
     

@@ -1,5 +1,10 @@
 package hw04;
 
+/**
+ * Task 12:
+ * Solve Task 10 for numbers that are multiples of 4, instead of odd numbers.
+ */
+
 import java.util.Scanner;
 
 public class Task12 {

@@ -1,5 +1,11 @@
 package hw04;
 
+/**
+ * Task 5:
+ * Write javacode that reads the value of n and calculates the value of y if the expression of y is as follows:
+ * y = 1^3 + 2^3 + 3^3 + 4^3 + 5^3 + 6^3 + ............+ n^3
+ */
+
 import java.util.Scanner;
 
 public class Task05 {

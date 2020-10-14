@@ -1,5 +1,10 @@
 package hw04;
 
+/**
+ * Task 7:
+ * Write javacode of a program which adds all numbers that are multiples of both 7 and 9 up to 600.
+ */
+
 public class Task07 {
     
     public static void main(String[] args) {

@@ -1,5 +1,10 @@
 package hw04;
 
+/**
+ * Task 27:
+ * Write javacode of a program that finds and displays all the prime numbers less than 1000.
+ */
+
 public class Task27 {
     public static void main(String[] args) {
         int i = 0;
@@ -19,7 +24,7 @@ public class Task27 {
             }
         }
         System.out.println("Total prime number is " + c);
-        System.out.println("Prime numbers below 1000:");
+        System.out.println("Prime numbers below 1000 are: ");
         System.out.println(primeNum);
     }
 }

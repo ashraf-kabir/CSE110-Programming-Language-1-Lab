@@ -1,5 +1,10 @@
 package hw04;
 
+/**
+ * Task 11:
+ * Solve Task 10 for even numbers instead of odd numbers.
+ */
+
 import java.util.Scanner;
 
 public class Task11 {

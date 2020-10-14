@@ -5,6 +5,7 @@ package hw04;
  */
 
 public class Task09 {
+
     public static void main(String[] args) {
         int sum7 = 0;
         int sum9 = 0;
@@ -18,4 +19,5 @@ public class Task09 {
         System.out.println("sum of multiples of 7 = " + sum7);
         System.out.println("sum of multiples of 9 = " + sum9);
     }
+
 }
