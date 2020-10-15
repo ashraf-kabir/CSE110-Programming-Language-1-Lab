@@ -1,5 +1,13 @@
 package lab09;
 
+/**
+ * Task 3
+ * Write a program which reads 5 numbers into an array and prints the smallest and largest number and their location in the array.
+ * If the user enters 7, 13, -5, 10, 6 then your program should print
+ * “Smallest number -5 was found at location 2”.
+ * “Largest number 13 was found at location 1”.
+ */
+
 import java.util.Scanner;
 
 public class Task03 {

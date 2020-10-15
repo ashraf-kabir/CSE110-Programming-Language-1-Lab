@@ -10,7 +10,7 @@ public class Task11 {
 
 		int sum = 0;
 
-		for (int a = 1; a <= 5; a++) {
+		for (int i = 1; i <= 5; i++) {
 			System.out.println("Enter number:");
 			int num = sc.nextInt();
 			sum += num;

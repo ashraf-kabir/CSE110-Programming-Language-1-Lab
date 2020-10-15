@@ -1,5 +1,11 @@
 package lab09;
 
+/**
+ * Task 5
+ * Write a program which reads 5 numbers into an array, sorts/arranges the numbers from high to low and prints all numbers in the array.
+ * If the user enters 7, 13, 2, 10, 6 then your program should print 13, 10, 7, 6, 2.
+ */
+
 import java.util.Scanner;
 
 public class Task05 {

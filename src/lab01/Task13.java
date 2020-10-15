@@ -8,7 +8,7 @@ public class Task13 {
 
 		Scanner sc = new Scanner(System.in);
 
-		for (int a = 1; a <= 5; a++) {
+		for (int i = 1; i <= 5; i++) {
 			System.out.println("Enter number: ");
 			int num = sc.nextInt();
 

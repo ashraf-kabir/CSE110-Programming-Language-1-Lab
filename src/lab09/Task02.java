@@ -1,5 +1,11 @@
 package lab09;
 
+/**
+ * Task 2
+ * Write a program which reads 5 numbers into an array and prints the largest number and its location in the array.
+ * If the user enters 7, 13, 2, 10, 6 then your program should print “largest number 13 was found at location 1”.
+ */
+
 import java.util.Scanner;
 
 public class Task02 {

@@ -8,16 +8,15 @@ public class Task09 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter range: ");
-		int r = sc.nextInt();
+		System.out.println("Enter range:");
+		int a = sc.nextInt();
 
 		int b = 1;
-		for (int rC = 1; rC <= r; rC++) {
-			for (int space = 1; space <= r - rC; space++) {
+		for (int rC = 1; rC <= a; rC++) {
+			for (int space = 1; space <= a - rC; space++) {
 				System.out.print(" ");
 			}
-
-			for (int star = 1; star <= rC; star++) {
+			for (int star = 1; star <= b; star++) {
 				System.out.print("*");
 			}
 			b += 2;

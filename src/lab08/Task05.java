@@ -1,5 +1,10 @@
 package lab08;
 
+/**
+ * Task 5
+ * Write a java program that reads 10 numbers from the user and prints the first even number in the list.
+ */
+
 import java.util.Scanner;
 
 public class Task05 {
@@ -8,18 +13,19 @@ public class Task05 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int n[] = new int[10];
+		int arr[] = new int[10];
 
-		for (int a = 0; a < n.length; a++) {
+		for (int i = 0; i < arr.length; i++) {
 			System.out.println("Enter number: ");
-			n[a] = sc.nextInt();
+			arr[i] = sc.nextInt();
 		}
-		for (int b = 0; b < n.length; b++) {
-			if (n[b] % 2 == 0) {
-				System.out.println("The first even number is = " + n[b]);
+
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] % 2 == 0) {
+				System.out.println("The first even number is = " + arr[i]);
 				break;
 			} else {
-				if (b == n.length - 1) {
+				if (i == arr.length - 1) {
 					System.out.println("There is no even number.");
 				}
 			}

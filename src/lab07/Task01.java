@@ -8,11 +8,11 @@ public class Task01 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter range: ");
+		System.out.println("Enter range:");
 		int r = sc.nextInt();
 
-		for (int c = 1; c <= r; c++) {
-			System.out.print(c);
+		for (int i = 1; i <= r; i++) {
+			System.out.print(i);
 		}
 		System.out.println();
 

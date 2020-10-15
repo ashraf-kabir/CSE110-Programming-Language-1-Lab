@@ -1,24 +1,31 @@
 package lab08;
 
+/**
+ * Task 3
+ * Write a java program that reads 10 numbers from the user, and then prints them in the reverse order.
+ */
+
 import java.util.Scanner;
 
 public class Task03 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-		int n[] = new int[10];
+        int a[] = new int[10];
 
-		for (int a = 0; a < n.length; a++) {
-			System.out.println("Enter number: ");
-			n[a] = sc.nextInt();
-		}
+        for (int i = 0; i < a.length; i++) {
+            System.out.println("Enter number:");
+            a[i] = sc.nextInt();
+        }
 
-		for (int b = n.length - 1; b >= 0; b--) {
-			System.out.println(n[b]);
-		}
+        String num = "";
+        for (int i = a.length - 1; i >= 0; i--) {
+            num += a[i] + ", ";
+        }
+        System.out.print(num.substring(0, num.length() - 2));
 
-	}
+    }
 
 }

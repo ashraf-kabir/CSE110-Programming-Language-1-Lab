@@ -16,11 +16,11 @@ public class Task02 {
 
 		int sum = num1 + num2;
 		int prod = num1 * num2;
-		int substraction = num1 - num2;
+		int subtraction = num1 - num2;
 
 		System.out.println(sum);
 		System.out.println(prod);
-		System.out.println(substraction);
+		System.out.println(subtraction);
 	}
 
 }

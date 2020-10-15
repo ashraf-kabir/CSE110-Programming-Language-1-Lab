@@ -1,5 +1,10 @@
 package lab08;
 
+/**
+ * Task 8
+ * Write a java program that reads 10 numbers from the user, and then prints only the even numbers in reverse order.
+ */
+
 import java.util.Scanner;
 
 public class Task08 {
@@ -14,6 +19,7 @@ public class Task08 {
 			System.out.println("Enter number: ");
 			n[a] = sc.nextInt();
 		}
+
 		for (int b = n.length - 1; b >= 0; b--) {
 			if (n[b] % 2 == 0) {
 				System.out.println(n[b]);

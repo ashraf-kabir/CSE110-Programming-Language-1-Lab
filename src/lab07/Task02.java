@@ -8,7 +8,7 @@ public class Task02 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter range: ");
+		System.out.println("Enter range:");
 		int r = sc.nextInt();
 
 		for (int c = 1; c <= r; c++) {

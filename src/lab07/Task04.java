@@ -8,10 +8,10 @@ public class Task04 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter the range of row: ");
+		System.out.println("Enter the range of row:");
 		int row = sc.nextInt();
 
-		System.out.println("Enter the range of coloumn: ");
+		System.out.println("Enter the range of column:");
 		int col = sc.nextInt();
 
 		for (int rowC = 1; rowC <= row; rowC++) {

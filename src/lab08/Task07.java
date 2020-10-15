@@ -1,5 +1,10 @@
 package lab08;
 
+/**
+ * Task 7
+ * Write a java program that reads 10 numbers from the user and prints the last even number in the list.
+ */
+
 import java.util.Scanner;
 
 public class Task07 {
@@ -14,6 +19,7 @@ public class Task07 {
 			System.out.println("Enter number: ");
 			n[a] = sc.nextInt();
 		}
+
 		for (int b = n.length - 1; b >= 0; b--) {
 			if (n[b] % 2 == 0) {
 				System.out.println("The last even number is = " + n[b]);
