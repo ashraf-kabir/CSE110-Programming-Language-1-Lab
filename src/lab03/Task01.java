@@ -17,7 +17,7 @@ public class Task01 {
 			System.out.println("An even number not greater than 10");
 		} else if (num % 2 != 0 && num > 10) {
 			System.out.println("An odd number greater than 10");
-		} else if (num % 2 != 0 && num < 10) {
+		} else if (num % 2 != 0) {
 			System.out.println("An odd number less than 10");
 		}
 	}
